@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Blog</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/media.css">
+	</head>
+
+	<body class="background">
+		<!-------------------------------------------------------------->
+		<div class="search-overlay">
+			<div class="container">
+				<h1 class="mb-4">Форма поиска</h1>
+				<div class="row align-items-center h-100">
+					<div class="col-sm-12">
+						<div class="input-group-custom">
+							<input type="text" class="form-control mb-4" id="search-input-overlay" placeholder="Поиск">
+							<button type="button" class="btn btn-custom" aria-label="Close">Закрыть</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-------------------------------------------------------------->
+		<div class="container-fluid d-flex align-items-center justify-content-between bg-light mt-5 m-auto rounded-3 main">
+			<div class="content-logo-name d-flex align-items-center justify-content-between">
+				<div class="border bordered-logo">
+					<div class="logo">
+						<img src="./img/pngwing.png" alt="Logo">
+					</div>
+				</div>
+				<div class="header-title">
+					<h1 class="text-dark mt-2">itProger</h1>
+					<p class="fs-5">Blog</p>
+				</div>
+			</div>
+			<!-------------------------------------------------------------->
+			<div class="d-flex justify-content-center">
+				<form class="form-inline">
+					<input class="form-control" id="search-input-custom" type="search" placeholder="Поиск" aria-label="Search">
+				</form>
+			</div>
+			<!-------------------------------------------------------------->
+			<div class="d-flex buttons">
+				<a class="btn" href="#">Главная</a>
+				<a class="btn" href="#">Статьи</a>
+				<a class="btn" href="#">Контакты</a>
+			</div>
+		</div>	
+
+		<div class="container-fluid d-flex flex-row justify-content-around mt-5 m-auto rounded-1 section">
+			<div class="d-flex flex-column text-section">
+				<p>3 основные сферы применения языка Python</p>
+				<p class="mt-2">
+					До начала активного изучения любого языка программирования правильно было бы задуматься о сферах его применения. Мы расскажем про 3 самые популярные сферы применения языка Python.
+				</p>
+				<button class="btn btn-danger btn-section mt-2 rounded-1">Читать далее</button>
+			</div>
+			<div class="mozilla-rust">
+				<img src="img/1_Hv_ATAMyCJbz4BRn58AX6g.png" class="img-thumbnail" alt="Mozilla">
+			</div>
+		</div>
+
+		<div class="container-fluid d-flex align-items-start justify-content-between mt-5 m-auto rounded-3 card-section">
+			<div class="fst-card-part d-flex flex-column w-25">
+				<p class="fs-3 fw-medium name">Новости</p>
+				<div class="card mb-5 rounded-2">
+					<img src="./img/unity.jpg" alt="Foto" class="h-25 card-img-top">
+					<div class="card-body">
+						<h3 class="mb-3">
+							Сравнение движков: Unreal Engine 4 против Unity 5
+						</h3>
+						<p class="card-text mb-3">
+							Выбрать движок дело не простое, а особенно когда оба очень хороши. В статье мы проведем сравнение двух программ и выясним какой движок использовать именно Вам!
+						</p>
+						<button type="button" class="btn btn-warning">Читать далее</button>
+					</div>
+				</div>
+				<div class="card rounded-1">
+					<img src="./img/web.jpg" alt="Foto" class="h-25 card-img-top">
+					<div class="card-body">
+						<h3 class="mb-3">
+							11 полезных инструментов для веб-разработчика
+						</h3>
+						<p class="card-text mb-3">
+							Разработчики постоянно пытаются сделать свою жизнь проще или расширить собственные возможности. Мы подготовили 11 инструментов, которые это обеспечат.
+						</p>
+						<button type="button" class="btn btn-warning">Читать далее</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="scd-card-part d-flex flex-column w-25 mt-5">
+				<div class="card mb-5 rounded-2">
+					<img src="./img/it.jpg" alt="Foto" class="h-25 card-img-top">
+					<div class="card-body">
+						<h3 class="mb-3">
+							7 девушек айтишниц из фильмов и сериалов
+						</h3>
+						<p class="card-text mb-3">
+							Много ли вы знаете фильмов и сериалов, где главные персонажи это девушки программисты? Мы подобрали 7 фильмов с такой концепцией.
+						</p>
+						<button type="button" class="btn btn-warning">Читать далее</button>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./img/original.jpg" alt="Foto" class="h-25 card-img-top">
+					<div class="card-body rounded-2">
+						<h3 class="mb-3">
+							Что такое Deep Learning? Как работает глубокое обучение?
+						</h3>
+						<p class="card-text mb-3">
+							Как работает глубокое обучение и что оно из себя представляет? В ходе статьи мы расскажем про Deep Learning и разберемся с его ключевыми понятиями.
+						</p>
+						<button type="button" class="btn btn-warning">Читать далее</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="thd-card-part d-flex flex-column w-25">
+				<p class="fs-3 fw-medium name">Анонс</p>
+				<div class="container-fluid bg-light rounded-1 mb-4 p-3">
+					<span>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, quis! 
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+						Eaque quam nihil nobis veritatis, quae porro iste possimus distinctio soluta atque ullam ea!
+					</span>
+				</div>
+				<div class="card rounded-2 bg-info">
+					<div class="text-center">
+						<img src="./img/android-logo-adb.jpg" class="w-75 mt-3 img-thumbnail" alt="foto">
+					</div>
+					<div class="card-body">
+						<p class="card-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam error delectus ipsam,
+							alias veritatis vel.
+						</p>
+						<button type="button" class="btn btn-light">Читать далее</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!----------------------------------------------------------------------------------->
+		<div class="container-fluid new-card mt-5 m-auto rounded-3 card-section">
+			<p class="fs-3 fw-medium name more-info d-none">Это интересно</p>
+			<div class="fst-card-part d-flex flex-column w-25" id="block1"></div>
+			<div class="scd-card-part d-flex flex-column w-25" id="block2"></div>			
+		</div>
+		<div class="row row-button">
+			<div class="col-sm-12 text-center">
+				<button id="load-more-btn" class="btn btn-danger btn-show-block">Загрузить дополнительно</button>
+			</div>
+		</div>
+		<!----------------------------------------------------------------------------------->
+
+		<div class="container-fluid bg-light mt-5 m-auto rounded-top-3 text-center policy">
+			<span class="fw-bold">Все права защищены &copy;</span>
+		</div>
+
+
+
+		<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
